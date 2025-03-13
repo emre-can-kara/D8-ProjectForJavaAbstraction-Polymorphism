@@ -24,6 +24,6 @@ public abstract class Monster implements Bleedable, Poisonable {
     }
 
     public double attack() {
-        return getDamage()+bleed()+posion();
+        return getDamage()+bleed()+poison();
     }
 }
